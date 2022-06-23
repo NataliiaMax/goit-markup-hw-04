@@ -54,6 +54,8 @@ address {
   font-style: normal;
 }
 
+/* Флекс-сетка */
+
 .card-set {
   display: flex;
   flex-wrap: wrap;
