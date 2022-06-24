@@ -177,6 +177,13 @@ address {
 .auth-nav .link:focus {
   color: var(--accent-text-color);
 }
+.mail-icon{
+  
+}
+
+.mail-icon-item{
+    fill: var(--primery-text-color);
+}
 
 /* Main */
 /* Кнопка */
@@ -186,6 +193,15 @@ address {
   text-align: center;
 
   background-color: var(--background-color);
+
+  max-width: 1600px;
+  height: 600px;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/image-hero/Img\ \(6\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .hero-caption {
@@ -242,6 +258,17 @@ address {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.aside-container{
+  width: 270px;
+  height: 120px;
+  background-color;
+border-radius: 4px;
+}
+
+.aside-icon{
+    fill: var(--content-color);
 }
 
 .aside-title {
