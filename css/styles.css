@@ -260,10 +260,11 @@ address {
   overflow: hidden;
 }
 
-.aside-container{
+.icon-container{
+  margin-bottom: 30px;
   width: 270px;
   height: 120px;
-  background-color;
+  background-color: var(--content-color);
 border-radius: 4px;
 }
 
@@ -328,9 +329,29 @@ border-radius: 4px;
 }
 
 .content-text {
+  margin-bottom: 16px;
+  
    font-size: 16px;
   line-height: 1.19;
   text-align: center;
+}
+
+.content-icon-container{
+  display: flex;
+
+  width: 206px;
+  height: 44px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-icon{
+  width: 44px;
+  height: 44px;
+}
+
+.content-icon:not(:last-child){
+  margin-right: 10px;
 }
 
 /* Footer */
